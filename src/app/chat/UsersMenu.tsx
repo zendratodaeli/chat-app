@@ -29,12 +29,12 @@ export default function UsersMenu({
   const [selectedUsers, setSelectedUsers] = useState<string[]>([]);
 
   const [searchInput, setSearchInput] = useState("");
+
   const searchInputDebounced = useDebounce(searchInput);
 
   const [moreUsersLoading, setMoreUsersLoading] = useState(false);
 
-  const [endOfPaginationReached, setEndOfPaginationReached] =
-    useState<boolean>();
+  const [endOfPaginationReached, setEndOfPaginationReached] = useState<boolean>();
 
   const pageSize = 10;
 

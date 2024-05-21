@@ -146,7 +146,8 @@ export default function UsersMenu({
     <div className="str-chat absolute z-10 h-full w-full overflow-y-auto border-e border-e-[#DBDDE1] bg-white dark:border-e-gray-800 dark:bg-[#17191c]">
       <div className="flex flex-col p-3">
         <div className="mb-3 flex items-center gap-3 text-lg font-bold">
-          <ArrowLeft onClick={onClose} className="cursor-pointer" /> Users
+          <ArrowLeft onClick={onClose} className="cursor-pointer" /> 
+          Users
         </div>
         <input
           type="search"
